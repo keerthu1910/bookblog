@@ -1,0 +1,21 @@
+.navbar{
+    background-color: white;
+    color:black;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+
+
+
+.title{
+    /* color:royalblue; */
+    margin-left: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+    margin:5px;
+    padding:5px;
+}

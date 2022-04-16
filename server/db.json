@@ -1,0 +1,80 @@
+{
+    "classics":[
+        {
+            "image":"images/prideandprejudice.jpg"
+            
+        },{
+            "image":"images/wutheringheights.jpg"
+            
+        },
+        {
+            "image":"images/tokillamockingbird.jpg"
+            
+        },
+        {
+            "image":"images/greatgatsby.jpg"
+            
+        },
+        {
+            "image":"images/cathcherintherye.jpg"
+            
+        },
+        {
+            "image":"images/littlewomen.jpg"
+            
+        }
+
+    ],
+    "crimeandthriller":[
+        {
+            "image":"images/davincicode.jpg"
+            
+        },
+        {
+            "image":"images/tellmeyourdreams.jpg"
+            
+        },
+        {
+            "image":"images/girlontrain.jpg"
+            
+        },
+        {
+            "image":"images/agathachristie.jpg"
+            
+        },
+        {
+            "image":"images/silentpatient.jpg"
+            
+        },
+        {
+            "image":"images/gonegirl.jpg"
+            
+        }
+    ],
+    "nonfiction":[
+        {
+            "image":"images/atomichabits.jpg"
+            
+        },
+        {
+            "image":"images/psychology.jpg"
+            
+        },
+        {
+            "image":"images/feminist.jpg"
+            
+        },
+        {
+            "image":"images/alchemist.jpg"
+            
+        },
+        {
+            "image":"images/sapiens.jpg"
+            
+        },
+        {
+            "image":"images/ikigai.jpg"
+            
+        }
+    ]
+}
