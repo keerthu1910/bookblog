@@ -1,11 +1,12 @@
 const jsonserver=require('json-server')
 const server=jsonserver.create()
 const router=jsonserver.router("./server/db.json")
+require('dotenv').config()
 const middlewares=jsonserver.defaults({
     static:"./build"
 })
 
-const port=3001
+const port=(process.env.PORT || 5000)
 server.use(middlewares)
 server.use(
     jsonserver.rewriter({
