@@ -1,6 +1,6 @@
 const jsonserver=require('json-server')
 const server=jsonserver.create()
-const router=jsonserver.router("../server/db.json")
+const router=jsonserver.router("./server/db.json")
 const middlewares=jsonserver.defaults({
     static:"./build"
 })
