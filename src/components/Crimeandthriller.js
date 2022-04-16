@@ -6,7 +6,7 @@ const Crimeandthriller=()=>{
     const [cbook,setcbook] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:3001/crimeandthriller')
+        axios.get('https://blogaboutbooks.herokuapp.com/crimeandthriller')
             .then(res=>setcbook(res.data))
     },[])
 

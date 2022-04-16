@@ -6,7 +6,7 @@ const Classics=()=>{
     const [book,setbook] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:3001/classics')
+        axios.get('https://blogaboutbooks.herokuapp.com/classics')
             .then(res=>setbook(res.data))
     },[])
 

@@ -6,7 +6,7 @@ const Nonfiction=()=>{
     const [nbook,setnbook] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:3001/nonfiction')
+        axios.get('https://blogaboutbooks.herokuapp.com/nonfiction')
             .then(res=>setnbook(res.data))
     },[])
 
