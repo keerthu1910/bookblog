@@ -1,14 +1,13 @@
 
 
 .bookcontainer{
-    background-color: aqua;
+    
     width:350px;
     height:350px;
     float:left;
     border-radius: 5px;
     padding:3px;
     margin:2px;
-    /* margin-inline-start: 20px; */
     margin-left:80px;
     margin-top:40px;
     justify-content: center;
